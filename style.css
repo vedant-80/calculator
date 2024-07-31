@@ -1,0 +1,12 @@
+html{
+    background-color: rgb(58, 62, 58);
+}
+
+.calculator-container{
+    background-color: gray;
+    margin: auto;
+    width: 360px;
+    height: 540px;
+    border-radius: 10px;
+    box-shadow: black 0px 0px 10px;
+}
