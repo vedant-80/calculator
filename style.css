@@ -99,9 +99,18 @@ button:hover{
 }
 
 .calc-text{
-    padding-top: 24px;
-    padding-right: 6px;
+    margin-top: 50px;
+    margin-right: 0px;
     float: right;
     font-family: arial;
     font-size: 36px;
+}
+
+.prev-calc{
+    float: right;
+    padding-right: 6px;
+    font-size: 14px;
+    font-family: arial;
+    color: lightslategrey;
+
 }
