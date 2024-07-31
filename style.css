@@ -2,6 +2,21 @@ html{
     background-color: rgb(58, 62, 58);
 }
 
+body{
+    text-align: center;
+}
+
+button{
+    font-family: monospace;
+    font-weight: 800;
+    box-shadow: black 0px 0px 0px;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    box-shadow: black 0px 0px 10px;
+}
+
 .calculator-container{
     background-color: gray;
     margin: auto;
@@ -9,4 +24,69 @@ html{
     height: 540px;
     border-radius: 10px;
     box-shadow: black 0px 0px 10px;
+    display: inline-block;
+}
+
+.calculation-display{
+    width: 320px;
+    height: 100px;
+    background-color: rgb(202, 202, 202);
+    margin-top: 40px;
+    margin-inline: 20px;
+    border-radius: 10px;
+}
+
+.row-1{
+    display: flex;
+    margin-top: 60px;
+    gap: 8px;
+    margin-inline: 20px;
+}
+
+#clear{
+    flex: 2;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+
+#exponent{
+    flex: 1;
+    border-radius: 10px;
+    border: none;
+
+}
+
+#division{
+    flex: 1;
+    border: none;
+    border-radius: 10px;
+}
+
+.row{
+    display: flex;
+    margin-top: 12px;
+    gap: 8px;
+    margin-inline: 20px;
+    height: 50px;
+}
+
+.number{
+    flex: auto;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(158, 160, 255);
+}
+
+#multiplication{
+    flex: auto;
+    border: none;
+    border-radius: 10px;
+}
+
+.operator{
+    flex: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(167, 152, 223);
 }
