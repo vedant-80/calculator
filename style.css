@@ -90,3 +90,18 @@ button:hover{
     border-radius: 10px;
     background-color: rgb(167, 152, 223);
 }
+
+#equal{
+    flex: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(167, 152, 223);
+}
+
+.calc-text{
+    padding-top: 24px;
+    padding-right: 6px;
+    float: right;
+    font-family: arial;
+    font-size: 36px;
+}
